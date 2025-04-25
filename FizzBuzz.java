@@ -4,22 +4,23 @@ public class FizzBuzz{
         
 
         for(int num=1;num<=100;num++){
-            StringBuilder output = new StringBuilder();
+            String output;
 
-            if(num % 3==0 && num%5==0){
-                output.append("Fizz Buzz");
+            if(num % 3 == 0 && num % 5 == 0){
+                output ="FizzBuzz";
             }
-            else if(num % 3==0){
-                output.append("Fizz");
+            else if(num % 3 == 0){
+                output="Fizz";
             }
-            else if(num % 5==0){
-                output.append("Buzz");
+            else if(num % 5 == 0){
+                output ="Buzz";
             }
-            else{
-                output.append(num);
+            else {
+                output = String.valueOf(num);
             }
             System.out.println(output);
+
+            }
         }
 
     }
-}
