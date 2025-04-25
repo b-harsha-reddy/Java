@@ -10,8 +10,12 @@ public class VariablesAndDataTypes{
        int num_1 = 10;
        int num_2 = 20;
        int sum = num_1 +num_2;
+       int sub = num_1-num_2;
        //Printing the sum
        System.out.println("Sum:"+sum);
+       System.out.println("Sum:"+sub);
+       
+
 
 
     }
